@@ -49,6 +49,10 @@ app/src/persistence/schema.rs.orig
 # Don't include personal Claude Code settings
 .claude/settings.local.json
 
+# LLM agent guidance files are local-only (not upstream-able)
+CLAUDE.md
+AGENTS.md
+
 # Tab drag development notes
 pr_cleanup.md
 desired_behavior.md
